@@ -1,0 +1,58 @@
+.homepage-background {
+    font-family: Arial, sans-serif;
+    max-width: 2000px;
+    margin: 0 auto;
+
+    /* The image used */
+    background-image: url("/public/ben t davis.jpg");
+
+    /* Full height */
+    min-height: 700px;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: saturation;
+
+    /* Makes Shadow Cover BG */
+    position: relative;
+    z-index: 10;
+}
+
+header h2{
+    padding: 0;
+    margin: 200px 0 50px 0;
+    text-align: left;
+    font-size: 350%;
+    font-family: "Segoe UI Semilight";
+    color: #000;
+}
+
+.miniHeader {
+    align-self: left;
+    font-size: 200%;
+    margin: 0;
+    font-family: "Segoe UI Semilight";
+    color: deepskyblue;
+}
+
+.content {
+    padding: 20px;
+    align-self: center;
+    font-size: 150%;
+    font-family: "Segoe UI";
+    color: white;
+}
+
+.infobox-container {
+    justify-content: space-between;
+    min-height: 500px;
+    max-width: 2000px;
+    display: flex;
+    margin: 0px auto;
+}
+
+.titleStyle {
+    font-family: "Segoe UI Semilight";
+}

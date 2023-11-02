@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+.container {
+  font-family: Arial, sans-serif;
+  background-color: #E0E0E0;
+  padding: 0px;
+  min-height: 1500px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1{
+  font-family: "Bahnschrift";
+  text-align: right;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+header h1{
+  padding: 0px 100px;
+  margin: 200px auto;
+  text-align: left;
+  font-size: 350%;
+  font-family: "Segoe UI Semilight";
+  color: #000;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+a {
+  font-family: "Bahnschrift";
+  font-weight: bold;
+  text-align: right;
+}
+
+.contact-container {
+  margin: 100px auto;
+}
+
+.vertical-infobox-container{
+  justify-content: space-between;
+  min-height: 500px;
+  max-width: 2000px;
   display: flex;
+  margin: 0px auto;
   flex-direction: column;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  gap: 40px;
+}
+
+.menu li {
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.menu li:hover {
+  color: #0077cc;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 10px 20px;
+  margin: 0px;
+  background-color: white;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.3);
+  /* Makes Shadow Cover BG */
+  position: relative;
+  z-index: 12;
 }
 
-.App-link {
-  color: #61dafb;
+.contact {
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo {
+  width: 150px;
 }
+
+footer {
+  font-size: 10px;
+}
+
+
+
